@@ -66,7 +66,7 @@
     <body>
         
 
-
+<img src="{{asset('img/logo.png')}}">
         
     </body>
 </html>
