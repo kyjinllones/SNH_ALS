@@ -1,0 +1,52 @@
+
+
+body  {
+    background-image: url("images/B.jpg");
+    width:100%; height:50px;
+}
+.navbar {
+    background-color: #daa520;
+    height: 50px;
+    padding: 5px 20px;
+
+}
+
+ul#topnav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    font-size: 1.1em;
+}
+ul#topnav li{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  /*--Important - Masking out the hover state by default--*/
+    float: left;
+    height:40px;
+
+}
+ul#topnav a, ul#topnav span { /*--The <a> and <span> share the same properties since the <span>  will be a duplicate of the <a> tag--*/
+    padding: 10px 20px;
+    float: left;
+    text-decoration: #8b0000;
+    color:#f5deb3;
+    text-transform: uppercase;
+    clear: both;
+    height: 40px;
+    line-height: 20px; /*--Vertical alignment of text--*/
+
+}
+
+
+ul#topnav a{	color: #ffffff; }
+ul#topnav span {
+    display: none;
+}
+
+ul#topnav span{ /*--Default state of navigation--*/
+   background-color: #a52a2a;
+    background-position: left top;
+
+}
+

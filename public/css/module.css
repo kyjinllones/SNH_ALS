@@ -1,0 +1,31 @@
+.image{
+	width: 50em;
+		height:25em;
+		
+		
+		
+
+}
+#als{
+	color: black;
+	font-family: arial black;
+	
+}
+.h1{
+	font-size: 3em;
+		font-family:arial black;
+		text-align: center;
+}
+.btn{
+float: right;
+background-color:  #999966;
+
+}
+.btn1{
+
+background-color:  #999966;
+
+}
+#mod{
+	text-align: center;
+}
